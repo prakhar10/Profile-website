@@ -1,0 +1,182 @@
+#my-img {
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    image-orientation: from-image;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img-uta{
+    height: 180px;
+    width: 180px;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#img-uop{ 
+    height: 180px;
+    width: 230px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+
+#prbtn1{
+    height: 150px;
+    width: 150px;
+    background: url("../images/ruby.png");
+    background-size: 100%;
+    margin-left: 125px;
+    border: 0px;
+    border-radius: 50%;
+}
+
+#prbtn2{
+    height: 150px;
+    width: 150px;
+    background: url("../images/stock.png");
+    background-size: 100%;
+    margin-left: 125px;
+    border: 0px;
+}
+
+#prbtn3{
+    height: 150px;
+    width: 150px;
+    background: url("../images/grocery.png");
+    background-size: 100%;
+    margin-left: 125px;
+    border: 0px;
+}
+
+h1{
+    margin : 10px;
+    font-family: 'Roboto';
+}
+
+p h2 h3 h4 h5 li{
+    font-family: 'Roboto';  
+}
+#para-1{
+    margin: 70px;
+    font-family: 'Roboto';
+}
+#para-2{
+    margin : 30px;
+}
+
+ul{
+    margin: 20px;
+}
+
+li{
+    margin: 10px 0px; 
+}
+
+#row-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#row-3{
+    margin-top: 50px;
+}
+
+#uta-para{
+    font-size : 20px;
+}
+
+#uop-para{
+    font-size : 20px;
+}
+
+#project-img{
+    margin-top: 30px;
+}
+
+.fa{
+    background-color: white;
+    color: gray;
+    border: 0px;
+}
+
+#education{
+    margin: 40px;
+}
+
+#workex{
+    margin: 20px;
+}
+
+#skills{
+    margin: 30px;
+}
+
+#resume{
+   margin: 50px 20px 20px 20px;    
+}
+
+#social{
+    margin: 20px; 
+}
+
+#projects{
+    margin: 20px;
+} 
+
+#downloadbtn{
+    background-color: blueviolet;
+    color: white;
+}
+
+label{
+    text-align: center;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.affix-top {
+    width: 100%;
+  }
+
+.affix-bottom {
+    position: absolute;
+    width: 100%;  
+  }
+
+#skills-row-1{
+    margin:20px;
+}
+
+#skills-row-2{
+    margin: 30px 20px 20px 20px;
+}
+
+#skills-row-3{
+    margin: 30px 20px 20px 20px;
+}
+
+.card-block{
+    margin: 10px 100px 10px 340px;  
+    width: 500px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.collapse > .card > h4{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
