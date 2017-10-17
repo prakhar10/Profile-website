@@ -18,8 +18,8 @@
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script><script>new WOW().init();</script>
     
-    
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="">
+     
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#"><h4>Prakhar Sapre</h4></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,63 +34,67 @@
                 <a class="nav-item nav-link" href="#social"><h5>Social</h5></a>
             </div>
         </div>
-   </nav>
+</nav>
 
+<div class="parallax-1">
 <div class="container-fluid" id="container-1">
         <div class="row" id="about">
             <div class="col-lg-12">
-                <img src="images/picture.jpg" class="img-responsive wow fadeInRight" id="my-img" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                <!-- <img src="images/picture.jpg" class="img-responsive wow fadeInRight" id="my-img" data-wow-duration="0.5s" data-wow-delay="0.5s"> -->
                 <p id="para-1">
-                   <p style="margin-left: 50px; font-size: 80px;"  class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.9s">
-                        Hello World <i class="fa fa-heart"></i>
+                   <p style="text-align:center;font-size:80px; color: white"  class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                        Hello World <i class="fa fa-heart" style="color:red;background-color:rgba(0,0,0,0)"></i>
                    </p>
                 </p>
-                <p style="margin-left: 50px; font-size: 40px;" class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.9s">
-                    I'm Prakhar and this is me in a nutshell. 
-                </p>           
+                <p style="font-size: 40px;" class="wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                        <div class="cd-headline rotate-1">
+                            <span>I'm Prakhar and </span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">I'm a Grad student.</b>
+                                <b>I build scalable web apps.</b>
+                                <b>this is me in a nutshell.</b>
+                            </span>
+                        </div>  
+                </p>
             </div>
         </div>  
     </div>
+</div>
 
 <div class="container-fluid" id="container-2">
-    <div class="row wow fadeInDown" id="education" data-wow-duration="0.8s" data-wow-delay="0.9s" >
+    <div class="row wow fadeInUp" id="education" data-wow-duration="0.6s" data-wow-delay="0.6s" >
         <div class="col-lg-12">
             <h1 style="text-align:center;"> Education </h1>
             <hr>
         </div>
          <div class="col-lg-6">   
-            <p id="uta-para">
-                <i class="fa fa-book" aria-hidden="true" style="font-size:100px; float:left;margin-right:20px;"></i> 
-                <b>Master of Science in Computer Science</b><br> University of Texas at Arlington<br> December 2019
-             </p> 
+             <img src="images/laptop.jpg" id="laptop_img" class="img-responsive">
         </div>
         <div class="col-lg-6">
+            <p id="uta-para">
+                <b>Master of Science in Computer Science</b><br> University of Texas at Arlington, USA<br> December 2019
+            </p>
             <p id="uop-para"> 
-                <i class="fa fa-book" aria-hidden="true" style="font-size:100px; float:left;margin-right:20px;"></i>
-                <b> Bachelor of Engineering in Computer Engineering</b><br>University of Pune<br>GPA: 3.3 , May 2014
+                <b> Bachelor of Engineering in Computer Engineering</b><br>University of Pune, India<br>GPA: 3.3 , May 2014
             </p>
         </div> 
     </div>   
 </div>
 
+<div class="parallax">
 <div class="container-fluid" id="container-3">
     <div class="row" id="workex"> 
         <div class="col-lg-12">
-            <h1 style="text-align:center;"> Work Experience </h1>
+            <h1 style="text-align:center; color:white"> Work Experience </h1>
             <hr>
-                <h3 style="margin-left:50px;"> Software Engineer at Larsen & Toubro Infotech </h3>
-                    <p>
-                       <ul>
-                            <li>Developed a test harness to generate sample XML messages and push on Tibco EMS queues</li>
-                            <li>Reduced time of processing by implementing Batch processing for multiple files from source system</li>
-                            <li>Implemented cron jobs to monitor and consume files from source system</li>
-                            <li>Defect analysis and resolving technical blockage</li>
-                            <li>Worked on automation testing using selenium</li>
-                        </ul> 
+                <h3 style="text-align: center;color:white"> Software Engineer at Larsen & Toubro Infotech (2015 - 2017) </h3>
+                    <p style="text-align:center;color: white;padding-top:20px">
+                        Results-driven IT professional with 2 years and 5 months of work experience at L&T Infotech as a Software Engineer and documented track record of success in designing, developing, and supporting large scale enterprise applications and application frameworks. I have worked in the Banking and Financial Services domain and have excellent knowledge in the field of Corporate Actions and Securities Event Management.
                     </p>    
         </div>    
-    </div>
-</div> 
+    </div> 
+</div>
+</div>
 
 <div class="container-fluid">
     <div class="row" id="projects">
@@ -101,15 +105,15 @@
     </div>
         <div class="row" id="project-img">
             <div class="col-lg-4" >
-                <button type="button" class="btn-block wow flipInX"  id="prbtn1" data-toggle="modal" data-target="#pr1modal"  data-wow-duration="0.8s" data-wow-delay="0.8s" ></button>
+                <button type="button" class="btn-block wow flipInX"  id="prbtn1" data-toggle="modal" data-target="#pr1modal"  data-wow-duration="0.8s" data-wow-delay="0.8s" style="border:0px;"></button>
                 <h3 style="text-align:center;margin-top:10px">Autovrsion</h3>
             </div>
             <div class="col-lg-4">
-                    <button type="button" class="btn-block wow flipInY"  id="prbtn2" data-toggle="modal" data-target="#pr2modal"  data-wow-duration="0.9s" data-wow-delay="0.9s" ></button>
+                    <button type="button" class="btn-block wow flipInY"  id="prbtn2" data-toggle="modal" data-target="#pr2modal"  data-wow-duration="0.9s" data-wow-delay="0.9s" style="border:0px;"></button>
                 <h3 style="text-align:center;margin-top:10px">Aspen</h2>
             </div> 
             <div class="col-lg-4">
-                    <button type="button" class="btn-block wow flipInX"  id="prbtn3" data-toggle="modal" data-target="#pr3modal"  data-wow-duration="0.8s" data-wow-delay="0.8s" ></button>
+                    <button type="button" class="btn-block wow flipInX"  id="prbtn3" data-toggle="modal" data-target="#pr3modal"  data-wow-duration="0.8s" data-wow-delay="0.8s" style="border:0px;"></button>
                 <h3 style="text-align:center;margin-top:10px">Grocery Planner</h3>
             </div>
         </div>
@@ -189,19 +193,19 @@
         <div class="col-lg-4">
             <h4><label class="label label-default"> Java </label></h4>
             <div class="progress">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
+                <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #F15338" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
             </div>
         </div>
         <div class="col-lg-4">
                 <h4><label class="label label-default"> Spring </label></h4>
                 <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
+                    <div class="progress-bar" role="progressbar" style="width: 70%;background-color: #F15338" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
                 </div>
         </div>
         <div class="col-lg-4">
                 <h4><label class="label label-default"> Hibernate </label></h4>
                 <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="10">7/10</div>
+                    <div class="progress-bar" role="progressbar" style="width: 50%;background-color: #F15338" aria-valuenow="5" aria-valuemin="0" aria-valuemax="10">5/10</div>
                 </div>
         </div>
     </div>
@@ -210,19 +214,19 @@
             <div class="col-lg-4">
                 <h4><label class="label label-default"> HTML5 </label></h4>
                 <div class="progress">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">8/10</div>
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color:#5EB6DC" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">8/10</div>
                 </div>
             </div>
             <div class="col-lg-4">
                     <h4><label class="label label-default"> CSS3 </label></h4>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
+                        <div class="progress-bar" role="progressbar" style="width: 70%; background-color:#5EB6DC" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
                     </div>
             </div>
             <div class="col-lg-4">
                     <h4><label class="label label-default"> Bootstrap 4 </label></h4>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
+                        <div class="progress-bar" role="progressbar" style="width: 70%; background-color:#5EB6DC" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">7/10</div>
                     </div>
             </div>
     </div>
@@ -231,19 +235,19 @@
             <div class="col-lg-4">
                 <h4><label class="label label-default"> GIT </label></h4>
                 <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">8/10</div>
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color:#1C8ADB" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">8/10</div>
                 </div>
             </div>
             <div class="col-lg-4">
                     <h4><label class="label label-default"> SVN </label></h4>
                     <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10">6/10</div>
+                        <div class="progress-bar" role="progressbar" style="width: 60%; background-color:#1C8ADB" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10">6/10</div>
                     </div>
             </div>
             <div class="col-lg-4">
                     <h4><label class="label label-default"> BitBucket </label></h4>
                     <div class="progress">
-                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">8/10</div>
+                        <div class="progress-bar" role="progressbar" style="width: 80%; background-color:#1C8ADB" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">8/10</div>
                     </div>
             </div>
         </div>
@@ -287,9 +291,10 @@
     </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
-    <div style="text-align:center; color:white "><h5>Copyright &copy; 2017 Prakhar Sapre</h5></div>
-</nav>
+<footer class="footer">
+    <p>Copyright &copy; 2017 <b> Prakhar Sapre</b> </p>
+</footer>
+
 
 </body>
 </html>   
