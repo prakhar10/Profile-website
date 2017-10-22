@@ -3,7 +3,7 @@
     width: 150px;
     background: url("../images/ruby.png");
     background-size: 100%;
-    margin-left: 125px;
+    margin: 0 auto;
     border: 0px;
     border-radius: 50%;
 }
@@ -13,7 +13,7 @@
     width: 150px;
     background: url("../images/stock.png");
     background-size: 100%;
-    margin-left: 125px;
+    margin: 0 auto;
     border: 0px;
 }
 
@@ -22,7 +22,7 @@
     width: 150px;
     background: url("../images/cart1.png");
     background-size: 100%;
-    margin-left: 125px;
+    margin: 0 auto;
     border: 0px;
     
 }
@@ -84,10 +84,6 @@ li{
     color: gray;
     border: 0px;
 }
-
-/* #container-2{
-    background: #EEEEEE;
-} */
 
 #education{
     padding: 40px 0px 50px 0px;
@@ -170,7 +166,7 @@ label{
 }
 
 .parallax-1{
-    background-image: url("../images/desk3.jpg");
+    background-image: url("../images/desk.jpg");
     min-height: 550px; 
     background-attachment: fixed;
     background-position: center;
