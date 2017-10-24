@@ -17,9 +17,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script><script>new WOW().init();</script>
-    
-     
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#"><h4>Prakhar Sapre</h4></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,7 +36,7 @@
 </nav>
 
 <div class="parallax-1">
-<div class="container-fluid" id="container-1">
+    <div class="container-fluid" id="container-1">
         <div class="row" id="about">
             <div class="col-lg-12">
                 <p id="para-1">
@@ -61,15 +60,15 @@
 </div>
 
 <div class="container-fluid" id="container-2">
-    <div class="row wow fadeInUp" id="education" data-wow-duration="0.6s" data-wow-delay="0.6s" >
+    <div class="row" id="education">
         <div class="col-lg-12">
             <h1 style="text-align:center;"> Education </h1>
             <hr>
         </div>
-         <div class="col-lg-6">   
+         <div class="col-lg-6 wow flipInY" data-wow-duration="0.9s" data-wow-delay="0.9s">   
              <img src="images/laptop.jpg" id="laptop_img" class="img-responsive">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6  wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.6s">
             <p id="uta-para">
                 <b>Master of Science in Computer Science</b><br> University of Texas at Arlington, USA<br> December 2019
             </p>
@@ -87,7 +86,7 @@
             <h1 style="text-align:center; color:white"> Work Experience </h1>
             <hr>
                 <h3 style="text-align: center;color:white"> Software Engineer at Larsen & Toubro Infotech (2015 - 2017) </h3>
-                    <p style="text-align:center;color: white;padding-top:20px">
+                    <p style="text-align:center;color: white;padding-top:20px;font-size: 20px;">
                         Results-driven IT professional with 2 years and 5 months of work experience at L&T Infotech as a Software Engineer and documented track record of success in designing, developing, and supporting large scale enterprise applications and application frameworks. I have worked in the Banking and Financial Services domain and have excellent knowledge in the field of Corporate Actions and Securities Event Management.
                     </p>    
         </div>    
@@ -103,15 +102,15 @@
         </div>
     </div>
         <div class="row" id="project-img">
-            <div class="col-lg-4 col-md-2 text-center" >
+            <div class="col-lg-4 col-md-2 text-center" id="autovrsion">
                 <button type="button" class="btn-block wow flipInX"  id="prbtn1" data-toggle="modal" data-target="#pr1modal"  data-wow-duration="0.8s" data-wow-delay="0.8s" style="border:0px;"></button>
                 <h3>Autovrsion</h3>
             </div>
-            <div class="col-lg-4 col-md-2 text-center">
+            <div class="col-lg-4 col-md-2 text-center" id="aspen">
                 <button type="button" class="btn-block wow flipInY"  id="prbtn2" data-toggle="modal" data-target="#pr2modal"  data-wow-duration="0.9s" data-wow-delay="0.9s" style="border:0px;"></button>
                 <h3>Aspen</h2>
             </div> 
-            <div class="col-lg-4 col-md-2 text-center">
+            <div class="col-lg-4 col-md-2 text-center" id="grocery_planner">
                 <button type="button" class="btn-block wow flipInX"  id="prbtn3" data-toggle="modal" data-target="#pr3modal"  data-wow-duration="0.8s" data-wow-delay="0.8s" style="border:0px;"></button>
                 <h3>Grocery Planner</h3>
             </div>
