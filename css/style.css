@@ -130,21 +130,6 @@ label{
     text-align: center;
 }
 
-.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-.affix-top {
-    width: 100%;
-  }
-
-.affix-bottom {
-    position: absolute;
-    width: 100%;  
-  }
-
 #skills-row-1{
     margin:20px;
 }
